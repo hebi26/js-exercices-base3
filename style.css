@@ -1,0 +1,27 @@
+
+table{
+  width: 60%;
+  margin: auto;
+  border: 1px solid black;
+  background-color: black;
+}
+
+
+th{
+  width: 15%;
+  color: white;
+
+}
+td{
+width: 15%;
+background-color: white;
+border: 1px solid black;
+text-align: center;
+}
+button{
+  width: 10%;
+}
+#btnjs{
+  margin-left: 40%;
+  margin-bottom: 10px;
+}
