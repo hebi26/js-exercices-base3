@@ -65,7 +65,7 @@ document.getElementById('btnjs').onclick = function(){
 
       if ((books[i].type).includes("js")){
 
-        var list=document.getElementById('list').innerHTML+=('<tr><td>'+ books[i].title + '</td><td>' + books[i].author +
+      document.getElementById('list').innerHTML+=('<tr><td>'+ books[i].title + '</td><td>' + books[i].author +
         '</td><td>' + books[i].link + '</td><td>' +books[i].type + '</td></tr>');
       }
     }
@@ -79,7 +79,7 @@ document.getElementById('btncss').onclick = function(){
 
       if ((books[i].type).includes("css")){
 
-        var list=document.getElementById('list').innerHTML+=('<tr><td>'+ books[i].title + '</td><td>' + books[i].author +
+      document.getElementById('list').innerHTML+=('<tr><td>'+ books[i].title + '</td><td>' + books[i].author +
         '</td><td>' + books[i].link + '</td><td>' +books[i].type + '</td></tr>');
       }
     }
